@@ -1,0 +1,77 @@
+StackOverflow constituie o sursă de inspirație la nivel global, fapt în urma căruia putem deduce că gama de funcționalități oferite de această aplicație este una vastă, având 
+la dispoziție diverse tipuri de facilități și opțiuni, care diferă din punct de vedere al complexității.
+
+Aplicația StackOverflow a pus bazele unei comunități solide în domeniul IT, întrucat o mare parte dintre problemele întâmpinate pe parcursul unei cariere de 
+programator au fost soldate cu soluții de rezolvare, unele deosebite, altele mai puțin bune, în funcție de viziunea și cerințele fiecăruia. Această aplicație 
+este extrem de utilă, atât pentru studenți, cât și pentru programatorii care întâmpină dificultăți sau doresc să consulte păreri diferite, întrucât oferă soluții, idei și 
+rezolvări aflate doar la un click distanță. 
+
+Aplicația oferă o interfață bine construită din punct de vedere al design-ului, având avantajul unui user experience optim și lipsit de dificultăți,
+aspect extrem de important în ceea ce privește aplicațiile destinate unui număr mare de utilizatori. Putem spune că în rândul studenților (și nu numai), StackOverflow
+reprezintă una dintre cele mai ofertante aplicații în rezolvarea erorilor, warning-urilor și a diverselor problemele care survin în procesul de programare și depanare.
+
+Ca și funcționalități, respectiv opțiuni, StackOverflow dispune de următoarele:
+
+Antetul paginii oferă un meniu de tip dropdown, cu mai multe opțiuni în ceea ce privește indexarea categoriilor majore pe care utilizatorul le poate accesa în cadrul
+               aplicației, și anume: 
+   1. Home - interfața afișată în momentul accesării url-ului paginii;
+           - oferă informații de interes general despre aplicație;
+           - prezintă un motto "We build products that empower developers and connect them to solutions that enable productivity, growth, and discovery",
+            sub care regăsim două opțiuni, și anume: For developers, respectiv For businesses;
+           - mai jos pe pagină se găsesc secțiunile pentru Public Q&A, Private Q&A și Browse Jobs;
+           - la secțiunea de Learn more sunt oferite informații despre cele mai utilizate versiuni (Basic, Business și Enterprise), asociate cu butoane pentru
+            diverse opțiuni, precum "Get started for free", "Get starded", "Request a demo";
+           - sub forma unui design interactiv sunt prezentate variantele pentru întrebări, tag-uri, voturi, stele;
+           - la secțiunea "Looking for a job?" sunt reprezentate câteva opțiuni pentru ceea ce ne interesează la un job, precum și un buton prin care putem 
+            vizualiza toate joburile oferite;
+           - la finalul paginii sunt enumerate 4 categorii, fiecare având sub aceasta o listă de mai multe opțiuni.
+   2. Public - reprezintă o secțiune destinată întrebărilor și răspunsurilor venite atât de la developeri, cât și de la alți utilizatori cu experință în 
+            domeniul respectiv;
+   3. Find a job - reprezintă o secțiune destinată ofertelor ce se regăsesc în momentul de față pe piața muncii, în funcție de mai multe crierii de căutare 
+                (salarii, departament, nivel de experiență etc).
+   4. Teams - reprezintă o secțiune privată (există opțiunea de trial gratis pentru 30 de zile) în cadrul căreia o echipă își poate desfășura activitatea 
+           discutând despre anumite proiecte și având posibilitatea găsirii unor soluții de rezolvare într-un cadru restrâns și securizat.
+
+Opțiunea About oferă o gamă variată de informații importante despre aplicație și comunitatea sa.
+                   - design-ul acestei interfețe este minimalist și foarte sugestiv;  
+                   - în partea de sus a paginii sunt mai multe butoane care ne redirecționează spre diferite pagini, în funcție de conținutul menționat de eticheta 
+                     butonului respectiv;
+                   - se regăsesc texte care descriu aplicația StackOverflow, anul apariției, avantajele oferite, produsele disponibile, modul de lucru (cu mențiunea că 
+                     în prezent toți angajații lucrează remote).
+
+Opțiunea Products oferă redirecționări către mediul public al aplicației, mediul privat destinat echipelor, mediul destinat job-urilor, talent și advertising.
+
+Opțiunea For Teams oferă o prezentare a modului de utilizare al aplicației în cadrul unei companii, punând la dispoziție ofertele aferente în cadrul
+                        unor pachete diferite, în funcție de ceea ce caută și își dorește fiecare utilizator sau fiecare echipă de utilizatori;
+                      - interfața cu utilizatorul este sugestiv creată și ușor de parcurs și înțeles.
+
+Searchbar - oferă o metodă rapidă și eficientă de căutare în cadrul acestei aplicații;
+          - are la bază o metodă de filtrare server-side, ce face posibilă găsirea elementelor de pe toate paginile aplicației prin intermediul unor query-uri atașate 
+            url-ului inițial.
+
+Butonul de Log In oferă utilizatorului posibilitatea de log in în aplicație cu un cont existent deja sau prin intermediul unor conturi precum cele de Google/Git/Facebook. 
+
+Butonul de Sign Up oferă utilizatorului posibilitatea de a se înregistra printr-un form destinat creării unui nou cont de user, unde vor fi introduse informații precum 
+numele, email-ul, parola, urmate apoi de un test de verificare de tip "I'm not a robot".
+
+Conținutul propriu-zis reprezintă nucleul StackOverflow.
+Pagina cea mai cunoscută a aplicației este cea de întrebări, unde putem să identificăm 3 secțiuni dispuse pe coloană: 
+                    - prima secțiune prezintă opțiunile descrise în meniul de tip dropdown;
+                    - în a doua secțiune se regăsesc întrebările, în dreptul fiecărei întrebări fiind afișate informații legate de voturile oferite de către utilizatori
+                       pentru întrebarea respectivă, numărul de răspunsuri, cât și numărul de vizualizări ale acelei întrebări. Practic, putem vizualiza cât de util
+                       a fost acel răspuns, dacă a ajutat sau nu pe cineva, când a fost postat etc;
+                    - în partea de jos se pot observa elementele de paginație, care fac posibilă navigarea înainte și înapoi și nu numai pe diferite pagini de întrebari;
+                    - secțiunea din dreapta conține informații despre blog, oferte de job, tag-uri ce sunt atașate întrebărilor pentru o indexare mai bună și
+                       o categorie destinată celor mai căutate și actuale întrebări;
+                    - accesarea unei întrebări ne oferă același tip de interfață precum cea prezentată mai sus, diferența fiind secțiunea centrală, unde se pot observa 
+                       răspunsurile oferite;
+                    - sub secțiunea de răspunsuri, utilizatorul beneficiază de un form în care poate oferi un răspuns. Utilizatorul are posibilitatea de a posta răspunsul 
+                       ca utilizator înregistrat sau în anonimat, în funcție de preferințele acestuia.
+
+Subsolul paginii reprezintă o secțiune care oferă rute către toate interfețele aplicației. Pe langă acest aspect, dispune de informații referitoare la date de contact,
+               la termenii si condițiile impuse de echipa de dezvoltare (spre exemplu, voi enumera câteva opțiuni: about, legal, privacy policy, help, other).
+
+StackOverflow pune la dispoziția utilizatorilor săi un design interesant și sugestiv, care facilitează navigarea și găsirea informațiilor necesare, optimizând timpul de 
+căutare. 
+În condițiile actualei pandemii de COVID-19, aplicația StackOverflow a fost extrem de utilă în dezvoltarea programelor si task-urilor de la locul de muncă, deoarece mediul
+de lucru remote a facilitat căutarea de soluții rapide și eficiente online.
