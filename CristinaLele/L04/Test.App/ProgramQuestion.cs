@@ -11,7 +11,7 @@ namespace Test.App
     {
         static void Main(string[] args)
         {
-            var tag = "c#,java".Split(',').ToList();
+            var tag = "visual studio, debugging".Split(',').ToList();
             var cmd = new CreateQuestionCmd("How do I remedy “The breakpoint will not currently be hit. No symbols have been loaded for this document.” warning?", "Can someone give me concrete details?", tag);
             var result = CreateQuestion(cmd);
 
