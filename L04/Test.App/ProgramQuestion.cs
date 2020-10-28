@@ -12,7 +12,7 @@ namespace Test.App
         static void Main(string[] args)
         {
             var tag = "c#,java".Split(',').ToList();
-            var cmd = new CreateQuestionCmd("Can I have blocking remote call in Flux.generate state generator", "I am generating a Flux from a series of blocking REST API calls, each call depends on the result of previous call.", tag);
+            var cmd = new CreateQuestionCmd("How do I remedy “The breakpoint will not currently be hit. No symbols have been loaded for this document.” warning?", "Can someone give me concrete details?", tag);
             var result = CreateQuestion(cmd);
 
             result.Match(
@@ -66,7 +66,6 @@ namespace Test.App
                 var errors = new List<string>() { "Invalid question tags" };
                 return new QuestionValidationFailed(errors);
             }
-
 
             var result = new QuestionPosted(createQuestionCommand.Title);
             return result;
